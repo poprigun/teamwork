@@ -1,6 +1,6 @@
-<?php  namespace Rossedman\Teamwork;
+<?php  namespace Poprigun\Teamwork;
 
-use Rossedman\Teamwork\Traits\RestfulTrait;
+use Poprigun\Teamwork\Traits\RestfulTrait;
 
 class Company extends AbstractObject {
 
