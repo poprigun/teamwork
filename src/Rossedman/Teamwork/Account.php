@@ -1,4 +1,4 @@
-<?php  namespace Rossedman\Teamwork; 
+<?php  namespace Poprigun\Teamwork; 
 
 class Account extends AbstractObject {
 
