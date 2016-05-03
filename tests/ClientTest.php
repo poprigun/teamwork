@@ -1,7 +1,7 @@
 <?php
 
 use Mockery as m;
-use Rossedman\Teamwork\Client;
+use Poprigun\Teamwork\Client;
 
 class ClientTest extends PHPUnit_Framework_TestCase {
 
