@@ -45,6 +45,17 @@ class Project extends AbstractObject {
     {
         return $this->client->get("$this->endpoint/$this->id/people")->response();
     }
+    
+    /**
+     * Get Roles On Project
+     * GET /projects/{project_id}/roles.json
+     *
+     * @return mixed
+     */
+    public function roles()
+    {
+        return $this->client->get("$this->endpoint/$this->id/roles")->response();
+    }
 
     /**
      * Get Starred Projects
