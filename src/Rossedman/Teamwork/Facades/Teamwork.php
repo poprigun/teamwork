@@ -1,4 +1,4 @@
-<?php  namespace Rossedman\Teamwork\Facades;
+<?php  namespace Poprigun\Teamwork\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
@@ -8,5 +8,5 @@ class Teamwork extends Facade {
      *
      * @return string
      */
-    protected static function getFacadeAccessor() { return 'rossedman.teamwork'; }
+    protected static function getFacadeAccessor() { return 'poprigun.teamwork'; }
 }
